@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Bajoua">
+    <title>My Journal</title>
+    <link rel="shortcut icon" type=image/jpg href="images/favicon.jpeg">
+</head>
+<body>
+    <header>
+        <div>The past 3 days:</div>
+        <nav>
+            <ul>
+                <li><a href="#4/9">4/9 Entry</a></li>
+                <li><a href="#4/10">4/10 Entry</a></li>
+                <li><a href="#4/11">4/11 Entry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <h1 id="4/9"> Skatepark - 4/9</h1>
+        <p>The highlight of my Thursday was going to my favorite skatepark, Park De La Cruz. My friend Elijah recorded 
+            this line for me</p>
+        <video controls
+         src="IMG_3024.mov"
+         width="400"
+         >
+         Your browser does not support this video.
+        </video>
+        <details>
+            <summary>The grinds are (respectively):</summary>
+            <ol>
+                <li>Backside 50-50</li>
+                <li>Frontside Boardslide</li>
+                <li>Frontside Smith</li>
+            </ol>
+        </details>
+        </section>
+        <br>
+        <section>
+        <h2 id="4/10"> Work - 4/10</h2>
+        <p>The main event of my Friday was <strong>unfortunately</strong> going to work where I am a cashier at a gas station.</p>
+        <img src="meme.png" alt="Every 10th customer">
+        </section>
+        <br>
+        <section>
+        <h3 id="4/11"> Naruto: Shippuden - 4/11</h3>
+        <p>My Saturday mainly consisted of watching <i>Naruto: Shippuden</i> since I am currently in the War Arc which 
+            I have been told is the best part of the show (and it is living up to the hype). Here is my favorite soundtrack from the show,
+            <span style=color:blueviolet><em>Sadness and Sorrow</em></span>:
+        </p>
+        <audio controls src="Naruto Soundtrack- Sadness and Sorrow (FULL VERSION).mp3"></audio>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h6 id="form"> Submit Your Own Entry</h6>
+        <form onsubmit="alert('Your entry has been recorded')">
+            <fieldset>
+                <label for="day">Choose a day to record.</label>
+                <input type="date" id="day" name="day">
+                <br>
+                <label for="gender">What is your gender?</label> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+                <label for="happy">How were you feeling? (can choose more than one)</label> <br>
+                <input type="checkbox" id="happy" name="happy" value="happy">
+                <label for="happy">I was happy</label> <br>
+                <input type="checkbox" id="sad" name="sad" value="sad">
+                <label for="sad">I was sad</label> <br>
+                <input type="checkbox" id="bored" name="bored" value="bored">
+                <label for="bored">I was bored</label> <br>
+                <input type="checkbox" id="mad" name="mad" value="mad">
+                <label for="mad">I was mad</label> <br>
+                <input type="checkbox" id="productive" name="productive" value="productive">
+                <label for="productive">I was productive</label> <br>
+                <label for="title">How would you title the day?</label>
+                <input type="text" id="title"> <br>
+                <label for="entry">Enter your journal entry here:</label>
+                <textarea name="entry" id="entry" cols="30" rows="10"></textarea> <br>
+                <label for="meal">What was your favorite meal of the day?</label>
+                <input list="meals" name="meal" id="meal"> <br>
+                <datalist id="meals">
+                <option value="Breakfast">
+                <option value="Lunch">
+                <option value="Dinner">
+                <option value="Snacks">
+                </datalist>
+                <label for="cars">Where did you spend most of your day?</label>
+                <select name="where" id="where">
+                <option value="inside">Inside</option>
+                <option value="outside">Outside</option>
+                </select> <br>
+                <label for="rating">Rate the day overall:</label>
+                <select id="rating">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+                </select> <br>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
