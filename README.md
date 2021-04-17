@@ -1,3 +1,3 @@
-# Lab 2
+# Lab 3
 
-Link to page: https://lucasbajoua.github.io/Lab2/?day=&entry=&meal=&where=inside#4/11
+Link to page: https://lucasbajoua.github.io/sp21-cse110-lab3/
