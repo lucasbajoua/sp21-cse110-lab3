@@ -1,0 +1,99 @@
+html {
+    background-color: lavender;
+}
+/*This is the journal's navigator at the top of the page*/
+header {
+    margin: auto;
+    background-color: lavender;
+    color: rgb(255, 99, 71);
+}
+nav {
+    margin-left: 2%;
+    border-style: solid;
+    border-color: lightcoral;
+    border-width: 2px;
+}
+
+/*First entry*/
+h1 {
+    background-color: #e282ee;
+    color: hsl(240, 100%, 50%, .5);
+    border-style: dotted;
+    margin: 0 0 0 0
+}
+h2 {
+    background-color: #e282ee;
+    color: hsl(240, 100%, 50%, .5);
+    border-style: dotted;
+    margin: 0 0 0 0
+}
+h3 {
+    background-color: #e282ee;
+    color: hsl(240, 100%, 50%, .5);
+    border-style: dotted;
+    margin: 0 0 0 0
+}
+p {
+    color:rgb(153, 50, 204);
+    font-family: fantasy;
+
+}
+p {
+    font-family: 'Indie Flower', cursive;
+}
+@media screen {
+    video {
+        padding: 2% 2% 2% 2%;
+        color: darkorchid;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50%;
+        position: relative;
+        height: 600px;
+        width: 400px;
+    }
+}
+details { /*The description for the video*/
+    color: darkorchid;
+    border-style: solid;
+    border-width: 1px;
+    display: inline;
+}
+audio {
+    display: inline;
+    max-width: 25%;
+    position: sticky;
+}
+/* unvisited link */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hsl(36, 100%, 50%);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+  }
+  footer {
+      display: grid;
+      grid-row: inherit;
+      grid-area: initial;
+      grid-column: inherit;
+
+  }
